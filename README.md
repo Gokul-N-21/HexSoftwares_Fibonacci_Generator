@@ -9,6 +9,8 @@ This project uses a Generator to achieve:
   * **State Preservation**: The function "freezes" its variables (`a` and `b`) at the `yield` statement and resumes exactly where it left off when called again.
   * **Infinite Potential**: Because it uses a `while True` loop, this generator could theoretically produce numbers forever without ever crashing the system's memory.
 
+---
+
 ### 📦 Keywords & Their Functions
 
 | Keyword/Function | Role in the Code |

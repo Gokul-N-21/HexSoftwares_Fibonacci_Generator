@@ -4,7 +4,7 @@
 ---
 
 ### 🧠 The Core Concept: Why Generators?
-In standard Python functions, a `return` statement terminates the function and sends back a complete object (like a list). If you wanted 1 million Fibonacci numbers, a standard list would consume significant RAM.
+  In standard Python functions, a `return` statement terminates the function and sends back a complete object (like a list). If you wanted 1 million Fibonacci numbers, a standard list would consume significant RAM.
 This project uses a Generator to achieve:
   
   * **Lazy Evaluation**: Numbers are calculated only when requested, one at a time.
